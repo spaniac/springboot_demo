@@ -3,23 +3,8 @@
 ## 개요
 Java / Spring Boot 관련 개념을 익히기 위한 토이 프로젝트.
 
-### - JPA
-#### 영속성 및 JPA 기본 개념
-https://tinkerbellbass.tistory.com/24
+### - Spring Boot 기초 설정
 
----
-#### All JPA Annotations
-https://dzone.com/articles/all-jpa-annotations-mapping-annotations
-
----
-#### JPA 기초 Annotation 정리
-https://www.icatpark.com/107
-
----
-#### Spring Data JPA Docs
-https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference 
-
----
 #### properties 자주 사용하는 설정(profile, DB, JPA)
 ~~~properties
 # 프로파일 선택 옵션
@@ -52,3 +37,27 @@ spring.jpa.show-sql=true
 # 데이터베이스 초기화 전략 설정(none, create, create-drop, update, validate)
 spring.jpa.hibernate.ddl-auto=create
 ~~~
+
+### - JPA
+#### 영속성 및 JPA 기본 개념
+https://tinkerbellbass.tistory.com/24
+
+---
+#### All JPA Annotations
+https://dzone.com/articles/all-jpa-annotations-mapping-annotations
+
+---
+#### JPA 기초 Annotation 정리
+https://www.icatpark.com/107
+
+---
+#### Spring Data JPA Docs
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference 
+
+---
+
+### - Lombok
+#### 자주 쓰는 Lomnbok Annotations
+https://www.daleseo.com/lombok-popular-annotations/
+
+---

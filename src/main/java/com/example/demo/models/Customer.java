@@ -44,4 +44,8 @@ public class Customer {
     @Column(name = "recent_login_datetime")
     @CreatedDate
     private Date recentLoginDateTime;
+
+    // DB에 저장되지 않는 Column 설정
+    @Transient
+    private boolean isNew = true;
 }

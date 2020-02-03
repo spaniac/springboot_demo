@@ -1,4 +1,4 @@
-# Java / Spring Boot 관련 토이 프로젝트
+# Java / Spring Boot 토이 프로젝트
 
 ## 개요
 Java / Spring Boot 관련 개념을 익히기 위한 토이 프로젝트.
@@ -61,3 +61,6 @@ https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference
 https://www.daleseo.com/lombok-popular-annotations/
 
 ---
+
+### TDD 통화(currency) 예제
+test 패키지에서 진행 중.
